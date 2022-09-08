@@ -1,0 +1,161 @@
+:root {
+    --dark-text: #000000;
+    --dark-welcome: #1f1d22;
+
+    --color-text: #d1c8c8;
+    --link-text: #adc2b9; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #2f2f46;
+}
+
+.cont-header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+    background-color: #2e2e30fd;
+    box-shadow: 0px 0px 5px 1px #000000;
+
+}
+
+.cont-header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    margin: 0 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.cont-header ul li {
+    padding: 25px 25px;
+}
+ 
+.cont-header .link{
+    font-family: sans-serif;
+    color: var(--link-text);
+    text-decoration: none;
+}
+
+.cont-header .link:hover {
+    color: var(--color-text);
+}
+
+/* Contenido principal
+    - Bienvenida
+*/
+
+
+
+
+.cont-welcome {
+    /* max-width: 100%; */
+    height: 100vh;
+    background-color: var(--dark-welcome);
+}
+
+.text-welcome {
+    position: relative;
+    top: 70px;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+.cont-welcome .text-welcome h1,p {
+    margin-top: 0;
+    text-align: center;
+    color: #99aaa3;
+}
+
+
+/* Seccion Proyectos */
+
+.project-tile {
+    background-color: #1f262a;
+    padding: 30px;
+}
+
+.project-tile h2 {
+    padding-top: 20px;
+    color: var(--link-text);
+    margin-top: 0;
+    text-align: center;
+}
+
+.project-tile .container-cards {
+    display: flex;
+    flex-wrap: wrap nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.project-tile .container-cards .links-card {
+    width: 350px;
+
+    display: inline-block;
+    margin: 10px;
+    color: var(--link-text);
+    text-decoration: none;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px 1px black;
+}
+
+.project-tile .container-cards .links-card img {
+    max-width: 100%;
+    /* border-radius: 7px; */
+    padding: 10px;
+    border-bottom: 1px solid rgb(133, 131, 131);
+}
+
+.card-project {
+    border-radius: 7px;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .container-cards {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: #1f1d22;
+}
+
+.links-social {
+    padding: 20px;
+}
+/* text-decoration: none; */
+.footer .links-social {
+    text-decoration: none;
+}
+
+.footer .links-social .icon {
+    color: var(--link-text);
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
