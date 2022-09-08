@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://Humber70@github.com/Humber70/Portfolio.git"
+    "url": "git+https://Humber70@github.com/Humber70/portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Humber70/Portfolio/issues"
+    "url": "https://github.com/Humber70/portfolio/issues"
   },
-  "homepage": "https://github.com/Humber70/Portfolio#readme"
+  "homepage": "https://github.com/Humber70/portfolio#readme"
 }
